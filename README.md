@@ -1,3 +1,3 @@
 ### All Advent of Code 2024 Solutions 
 
-###### mostly in Python, mostly without inbuilt functions 
+###### (mostly) in Python, without inbuilt functions (except for input processing) 
