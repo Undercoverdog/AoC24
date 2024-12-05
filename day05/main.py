@@ -222,14 +222,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-
-
-
-# For each page to be printed:
-# Create a directed graph of requirements.
-# Page A must Print before B => A points to B.
-# Delete all unrelated nodes.
-# a) If an arrow points to X, printing is prohibited.
-# b) Otherwise, delete X and all associated arrows.
-
