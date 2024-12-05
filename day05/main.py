@@ -119,11 +119,8 @@ def main():
     good_updates = [] # array of all allowed updates
     bad_updates = [] # array of all forbidden updates
     updates = get_updates() # array
-
-    current_line = 1178
     
     for update in updates:
-        current_line += 1
         # fail = it exists a broken rule in this update
         fail = False
 
