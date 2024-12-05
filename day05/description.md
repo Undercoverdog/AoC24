@@ -2,11 +2,12 @@
 
 
 For each page to be printed:<br>
-Create a directed graph of requirements.<br>
-Page A must Print before B => A points to B.<br>
-Delete all unrelated nodes.<br>
-a) If an arrow points to X, printing is prohibited => Fail.<br>
-b) Otherwise, delete X and all associated arrows.
+  Create a directed graph of requirements.<br>
+  Page A must Print before B => A points to B.<br>
+  Delete all unrelated nodes.<br>
+  Let X be the page to be checked.<br>
+    a) If an arrow points to X, printing is prohibited => Fail.<br>
+    b) Otherwise, delete X and all associated arrows.
 
 
 Why is it so slow?
