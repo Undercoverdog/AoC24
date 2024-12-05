@@ -201,7 +201,9 @@ def main():
     # add up middle array values
     sum = 0
     for update_line in fixed_updates:
-        sum += update_line[len(update_line) // 2]    print("Done!")
+        sum += update_line[len(update_line) // 2]    
+    
+    print("Done!")
     print(sum)
 
 
