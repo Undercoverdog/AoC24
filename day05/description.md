@@ -1,8 +1,8 @@
 ## What does the Program do?
 
 
-For each page to be printed:
-Create a directed graph of requirements.
+For each page to be printed:\n
+Create a directed graph of requirements.\n
 Page A must Print before B => A points to B.
 Delete all unrelated nodes.
 a) If an arrow points to X, printing is prohibited => Fail.
