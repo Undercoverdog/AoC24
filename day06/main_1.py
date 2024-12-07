@@ -21,30 +21,6 @@ class Guard:
     def add_position(self):
         # Append the array [self.posWidth, self.posHeight] to self.visited
         pos = [self.width, self.height]
-        
-        ## debug
-        # Convert the row (string) into a list of characters
-        row = list(self.canvas[self.height])
-        
-        # Modify the specific position in the row
-        if self.canvas[self.height][self.width] == ".":
-            str = "*"
-        elif self.canvas[self.height][self.width] == "*":
-            strarr = ["▲", "▶", "▼", "◀"]
-            str = strarr[self.facingIndex]
-            #str = "x"
-        elif self.canvas[self.height][self.width] == "x":
-            str = "y"
-        else:
-            strarr = ["▲", "▶", "▼", "◀"]
-            str = strarr[self.facingIndex]
-  
-        row[self.width] = str
-        
-        # Convert the list back into a string
-        self.canvas[self.height] = "".join(row)
-        ## end debug
-        
 
         if pos in self.visited: 
             pass
