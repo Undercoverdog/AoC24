@@ -70,7 +70,7 @@ class Guard:
                 #print(len(self.visited))
                 raise StopIteration
                 return False
-#
+
     def move_forward(self):
         # ["^", ">", "v", "<"]
 
